@@ -45,7 +45,6 @@ El propósito de este ciclo de pruebas es validar integralmente el plugin **OSIN
 
 Se ha adoptado una estrategia híbrida que combina:
 
-*   **Pruebas de Humo (Smoke Testing):** Verificación rápida de las funciones críticas tras cada despliegue.
 *   **Pruebas Funcionales (Caja Negra):** Validación de requisitos sin inspeccionar el código fuente.
 *   **Pruebas Exploratorias:** Sesiones de prueba libre para identificar comportamientos no documentados.
 *   **Pruebas de Regresión:** Re-ejecución de pruebas tras correcciones para asegurar que no se introdujeron nuevos defectos.
