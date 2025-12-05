@@ -193,8 +193,6 @@ Tras la ejecución exhaustiva de 35 casos de prueba (funcionales, seguridad y re
 
 ### 8.2. Trabajo Futuro
 
-### 8.2. Trabajo Futuro
-
 En las próximas versiones del plugin (**v1.1.0+**) se propone continuar con la mejora continua orientada a calidad, seguridad y rendimiento. Las líneas prioritarias son:
 
 - **Pruebas de carga y estrés con Apache JMeter** para evaluar límites operativos bajo escenarios de alta concurrencia y garantizar escalabilidad.
