@@ -193,8 +193,15 @@ Tras la ejecución exhaustiva de 35 casos de prueba (funcionales, seguridad y re
 
 ### 8.2. Trabajo Futuro
 
-Para futuras iteraciones (v1.1.0+), se recomienda:
+### 8.2. Trabajo Futuro
 
-*   Implementar pruebas automatizadas E2E (End-to-End) utilizando **Cypress** o **Playwright**.
-*   Integrar análisis estático de código (SAST) en el pipeline de CI/CD.
-*   Ampliar la cobertura de pruebas de accesibilidad (WCAG 2.1).
+En las próximas versiones del plugin (**v1.1.0+**) se propone continuar con la mejora continua orientada a calidad, seguridad y rendimiento. Las líneas prioritarias son:
+
+- **Pruebas de carga y estrés con Apache JMeter** para evaluar límites operativos bajo escenarios de alta concurrencia y garantizar escalabilidad.
+- **Automatización de pruebas funcionales con Selenium WebDriver**, permitiendo ejecutar flujos repetitivos y reducir el esfuerzo manual en regresiones.
+- **Análisis estático de código con PHPStan**, favoreciendo una detección temprana de errores y vulnerabilidades.
+- **Integrar estas validaciones dentro del pipeline CI/CD**, asegurando verificaciones automáticas por commit y mayor control de releases.
+- **Ampliar la cobertura de accesibilidad (WCAG 2.1) y usabilidad**, optimizando la experiencia en dispositivos móviles y navegabilidad general.
+- **Explorar en etapas posteriores el uso de herramientas E2E como Cypress o Playwright**, una vez consolidada la automatización base con Selenium.
+
+
